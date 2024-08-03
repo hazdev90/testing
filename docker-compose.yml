@@ -1,8 +1,8 @@
 version: "3.1"
 services:
-  # ngxs:
+  # ngxt:
   #   image: nginx:latest
-  #   container_name: nginx-server
+  #   container_name: nginxt-server
   #   stdin_open: true
   #   tty: true
   #   restart: always
@@ -19,9 +19,9 @@ services:
   #   networks:
   #     - zafsoft
 
-  webs:
-    image: web:1.0
-    container_name: web-server
+  webt:
+    image: webt:1.0
+    container_name: webt-server
     stdin_open: true
     tty: true
     restart: always
@@ -37,7 +37,7 @@ services:
       - zafsoft
 
   # apis:
-  #   image: apps:1.0
+  #   image: app:1.0
   #   container_name: api-server
   #   stdin_open: true
   #   tty: true
@@ -54,41 +54,41 @@ services:
   #   networks:
   #     - zafsoft
 
-  # dbs:
-  #   image: mysql:8.0
-  #   container_name: db-server
-  #   command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=4G --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
-  #   restart: always
-  #   environment:
-  #     MYSQL_ROOT_PASSWORD: t12yH4di
-  #     MYSQL_TCP_PORT: 3329
-  #   ports:
-  #     - 3329:3329
-  #   volumes:
-  #     - ./infra/data:/var/lib/mysql
-  #     - /etc/hosts:/etc/hosts
-  #     - ./infra/config/mysql/my.cnf:/etc/my.cnf:rw
-  #     - ./infra/config/mysql:/etc/mysql/conf.d
-  #   networks:
-  #     - zafsoft
+  dbt:
+    image: mysql:8.0
+    container_name: dbt-server
+    command: --default-authentication-plugin=mysql_native_password --max_allowed_packet=4G --character-set-server=utf8mb4 --collation-server=utf8mb4_general_ci
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: t12yH4di
+      MYSQL_TCP_PORT: 3329
+    ports:
+      - 3329:3329
+    volumes:
+      - ./infra/data:/var/lib/mysql
+      - /etc/hosts:/etc/hosts
+      - ./infra/config/mysql/my.cnf:/etc/my.cnf:rw
+      - ./infra/config/mysql:/etc/mysql/conf.d
+    networks:
+      - zafsoft
 
-  # pmas:
-  #   image: phpmyadmin
-  #   container_name: pma-server
-  #   restart: always
-  #   links:
-  #     - dbs
-  #   ports:
-  #     - 8029:80
-  #   environment:
-  #     PMA_HOST: dbs
-  #     PMA_PORT: 3329
-  #     MYSQL_ROOT_PASSWORD: t12yH4di
-  #     UPLOAD_LIMIT: 4G
-  #   depends_on:
-  #     - dbs
-  #   networks:
-  #     - zafsoft
+  pmat:
+    image: phpmyadmin
+    container_name: pma-server
+    restart: always
+    links:
+      - dbt
+    ports:
+      - 8029:80
+    environment:
+      PMA_HOST: dbt
+      PMA_PORT: 3329
+      MYSQL_ROOT_PASSWORD: t12yH4di
+      UPLOAD_LIMIT: 4G
+    depends_on:
+      - dbt
+    networks:
+      - zafsoft
 
 volumes:
   appssock:

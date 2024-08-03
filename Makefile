@@ -1,19 +1,19 @@
 DBUSER=root
 DBPASS=t12yH4di
-DBNAME=absensi
+DBNAME=testing
 
-app=apps:1.0
-web=web:1.0
-webservice=webs
-apiservice=apis
-nginxservice=ngxs
-dbservice=dbs
-pmaservice=pmas
+app=appt:1.0
+web=webt:1.0
+webservice=webt
+apiservice=apit
+nginxservice=ngxt
+dbservice=dbt
+pmaservice=pmat
 
-webcontainer=web-server
-apicontainer=api-server
-nginxcontainer=nginx-server
-dbcontainer=db-server
+webcontainer=webt-server
+apicontainer=apit-server
+nginxcontainer=nginxt-server
+dbcontainer=dbt-server
 
 .PHONY: help
 
@@ -21,7 +21,7 @@ help: ## Display this help screen
 	@awk 'BEGIN {FS = ":.*##"; printf "\nUsage:\n make \033[36m<target>\033[0m\n"} /^[a-zA-Z_-]+:.*?##/ { printf " \033[36m%-15s\033[0m %s\n", $$1, $$2 } /^##@/ { printf "\n\033[1m%s\033[0m\n", substr($$0, 5) } ' $(MAKEFILE_LIST)
 
 up: build-app ### Run docker-compose if app image not found will build
-	docker-compose up --build -d ${webservice} && docker logs ${webcontainer}
+	docker-compose up --build -d ${webservice} ${dbservice} ${pmaservice} && docker logs ${webcontainer}
 .PHONY: up
 
 down: ### Down docker-compose
