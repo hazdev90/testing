@@ -1,0 +1,160 @@
+2024/08/03 15:45:20 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:45:20 [notice] 16#16: nginx/1.24.0
+2024/08/03 15:45:20 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 15:45:20 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 15:45:20 [notice] 16#16: start worker processes
+2024/08/03 15:45:20 [notice] 16#16: start worker process 18
+2024/08/03 15:46:34 [notice] 52#52: signal process started
+2024/08/03 15:46:34 [notice] 16#16: signal 1 (SIGHUP) received from 52, reconfiguring
+2024/08/03 15:46:34 [notice] 16#16: reconfiguring
+2024/08/03 15:46:34 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:46:34 [notice] 16#16: start worker processes
+2024/08/03 15:46:34 [notice] 16#16: start worker process 53
+2024/08/03 15:46:34 [notice] 18#18: gracefully shutting down
+2024/08/03 15:46:34 [notice] 18#18: exiting
+2024/08/03 15:46:34 [notice] 18#18: exit
+2024/08/03 15:46:34 [notice] 16#16: signal 17 (SIGCHLD) received from 18
+2024/08/03 15:46:34 [notice] 16#16: worker process 18 exited with code 0
+2024/08/03 15:46:34 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:46:58 [notice] 55#55: signal process started
+2024/08/03 15:46:58 [notice] 16#16: signal 1 (SIGHUP) received from 55, reconfiguring
+2024/08/03 15:46:58 [notice] 16#16: reconfiguring
+2024/08/03 15:46:58 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:46:58 [notice] 16#16: start worker processes
+2024/08/03 15:46:58 [notice] 16#16: start worker process 56
+2024/08/03 15:46:58 [notice] 53#53: gracefully shutting down
+2024/08/03 15:46:58 [notice] 53#53: exiting
+2024/08/03 15:46:58 [notice] 53#53: exit
+2024/08/03 15:46:58 [notice] 16#16: signal 17 (SIGCHLD) received from 53
+2024/08/03 15:46:58 [notice] 16#16: worker process 53 exited with code 0
+2024/08/03 15:46:58 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:49:13 [notice] 59#59: signal process started
+2024/08/03 15:49:13 [notice] 16#16: signal 1 (SIGHUP) received from 59, reconfiguring
+2024/08/03 15:49:13 [notice] 16#16: reconfiguring
+2024/08/03 15:49:13 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:49:13 [notice] 16#16: start worker processes
+2024/08/03 15:49:13 [notice] 16#16: start worker process 60
+2024/08/03 15:49:13 [notice] 56#56: gracefully shutting down
+2024/08/03 15:49:13 [notice] 56#56: exiting
+2024/08/03 15:49:13 [notice] 56#56: exit
+2024/08/03 15:49:13 [notice] 16#16: signal 17 (SIGCHLD) received from 56
+2024/08/03 15:49:13 [notice] 16#16: worker process 56 exited with code 0
+2024/08/03 15:49:13 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:50:05 [notice] 63#63: signal process started
+2024/08/03 15:50:05 [notice] 16#16: signal 1 (SIGHUP) received from 63, reconfiguring
+2024/08/03 15:50:05 [notice] 16#16: reconfiguring
+2024/08/03 15:50:05 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:50:05 [notice] 16#16: start worker processes
+2024/08/03 15:50:05 [notice] 16#16: start worker process 64
+2024/08/03 15:50:05 [notice] 60#60: gracefully shutting down
+2024/08/03 15:50:05 [notice] 60#60: exiting
+2024/08/03 15:50:05 [notice] 60#60: exit
+2024/08/03 15:50:05 [notice] 16#16: signal 17 (SIGCHLD) received from 60
+2024/08/03 15:50:05 [notice] 16#16: worker process 60 exited with code 0
+2024/08/03 15:50:05 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:52:20 [notice] 67#67: signal process started
+2024/08/03 15:52:20 [notice] 16#16: signal 1 (SIGHUP) received from 67, reconfiguring
+2024/08/03 15:52:20 [notice] 16#16: reconfiguring
+2024/08/03 15:52:20 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:52:20 [notice] 16#16: start worker processes
+2024/08/03 15:52:20 [notice] 16#16: start worker process 68
+2024/08/03 15:52:20 [notice] 64#64: gracefully shutting down
+2024/08/03 15:52:20 [notice] 64#64: exiting
+2024/08/03 15:52:20 [notice] 64#64: exit
+2024/08/03 15:52:20 [notice] 16#16: signal 17 (SIGCHLD) received from 64
+2024/08/03 15:52:20 [notice] 16#16: worker process 64 exited with code 0
+2024/08/03 15:52:20 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:54:01 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:54:01 [notice] 16#16: nginx/1.24.0
+2024/08/03 15:54:01 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 15:54:01 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 15:54:01 [notice] 16#16: start worker processes
+2024/08/03 15:54:01 [notice] 16#16: start worker process 18
+2024/08/03 15:56:30 [notice] 55#55: signal process started
+2024/08/03 15:56:30 [notice] 16#16: signal 1 (SIGHUP) received from 55, reconfiguring
+2024/08/03 15:56:30 [notice] 16#16: reconfiguring
+2024/08/03 15:56:30 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:56:30 [notice] 16#16: start worker processes
+2024/08/03 15:56:30 [notice] 16#16: start worker process 56
+2024/08/03 15:56:31 [notice] 18#18: gracefully shutting down
+2024/08/03 15:56:31 [notice] 18#18: exiting
+2024/08/03 15:56:31 [notice] 18#18: exit
+2024/08/03 15:56:31 [notice] 16#16: signal 17 (SIGCHLD) received from 18
+2024/08/03 15:56:31 [notice] 16#16: worker process 18 exited with code 0
+2024/08/03 15:56:31 [notice] 16#16: signal 29 (SIGIO) received
+2024/08/03 15:58:13 [notice] 16#16: using the "epoll" event method
+2024/08/03 15:58:13 [notice] 16#16: nginx/1.24.0
+2024/08/03 15:58:13 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 15:58:13 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 15:58:13 [notice] 16#16: start worker processes
+2024/08/03 15:58:13 [notice] 16#16: start worker process 18
+2024/08/03 16:01:38 [emerg] 16#16: cannot load certificate "/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt, r) error:10000080:BIO routines::no such file)
+2024/08/03 16:01:39 [emerg] 43#43: cannot load certificate "/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt, r) error:10000080:BIO routines::no such file)
+2024/08/03 16:01:41 [emerg] 44#44: cannot load certificate "/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt, r) error:10000080:BIO routines::no such file)
+2024/08/03 16:01:44 [emerg] 45#45: cannot load certificate "/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt": BIO_new_file() failed (SSL: error:80000002:system library::No such file or directory:calling fopen(/etc/nginx/conf.d/file_crt/nginx-selfsigned.crt, r) error:10000080:BIO routines::no such file)
+2024/08/03 16:02:27 [notice] 17#17: using the "epoll" event method
+2024/08/03 16:02:27 [notice] 17#17: nginx/1.24.0
+2024/08/03 16:02:27 [notice] 17#17: OS: Linux 6.5.0-45-generic
+2024/08/03 16:02:27 [notice] 17#17: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:02:27 [notice] 17#17: start worker processes
+2024/08/03 16:02:27 [notice] 17#17: start worker process 19
+2024/08/03 16:03:45 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:03:45 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:03:45 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:03:45 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:03:45 [notice] 16#16: start worker processes
+2024/08/03 16:03:45 [notice] 16#16: start worker process 18
+2024/08/03 16:04:57 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:04:57 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:04:57 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:04:57 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:04:57 [notice] 16#16: start worker processes
+2024/08/03 16:04:57 [notice] 16#16: start worker process 18
+2024/08/03 16:05:48 [notice] 17#17: using the "epoll" event method
+2024/08/03 16:05:48 [notice] 17#17: nginx/1.24.0
+2024/08/03 16:05:48 [notice] 17#17: OS: Linux 6.5.0-45-generic
+2024/08/03 16:05:48 [notice] 17#17: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:05:48 [notice] 17#17: start worker processes
+2024/08/03 16:05:48 [notice] 17#17: start worker process 19
+2024/08/03 16:06:17 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:06:17 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:06:17 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:06:17 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:06:17 [notice] 16#16: start worker processes
+2024/08/03 16:06:17 [notice] 16#16: start worker process 18
+2024/08/03 16:07:40 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:07:40 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:07:40 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:07:40 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:07:40 [notice] 16#16: start worker processes
+2024/08/03 16:07:40 [notice] 16#16: start worker process 18
+2024/08/03 16:10:02 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:10:02 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:10:02 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:10:02 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:10:02 [notice] 16#16: start worker processes
+2024/08/03 16:10:02 [notice] 16#16: start worker process 18
+2024/08/03 16:11:58 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:11:58 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:11:58 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:11:58 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:11:58 [notice] 16#16: start worker processes
+2024/08/03 16:11:58 [notice] 16#16: start worker process 18
+2024/08/03 16:16:07 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:16:07 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:16:07 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:16:07 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:16:07 [notice] 16#16: start worker processes
+2024/08/03 16:16:07 [notice] 16#16: start worker process 18
+2024/08/03 16:18:16 [notice] 16#16: using the "epoll" event method
+2024/08/03 16:18:16 [notice] 16#16: nginx/1.24.0
+2024/08/03 16:18:16 [notice] 16#16: OS: Linux 6.5.0-45-generic
+2024/08/03 16:18:16 [notice] 16#16: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:18:16 [notice] 16#16: start worker processes
+2024/08/03 16:18:16 [notice] 16#16: start worker process 18
+2024/08/03 16:19:36 [notice] 15#15: using the "epoll" event method
+2024/08/03 16:19:36 [notice] 15#15: nginx/1.24.0
+2024/08/03 16:19:36 [notice] 15#15: OS: Linux 6.5.0-45-generic
+2024/08/03 16:19:36 [notice] 15#15: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/08/03 16:19:36 [notice] 15#15: start worker processes
+2024/08/03 16:19:36 [notice] 15#15: start worker process 17
